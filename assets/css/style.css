@@ -410,6 +410,12 @@ img.image-active {
     font-size: 20px;
 }
 
+@media screen and (max-width:1025px) {
+    .right {
+        padding: 20px 0;
+    }
+}
+
 .right:hover {
     transition: transform 1s;
     transform: rotateY(360deg);
@@ -456,6 +462,7 @@ img.image-active {
 @media screen and (max-width: 780px) {
     .news__headline {
         font-size: 15px;
+        padding: 20px 0;
     }
 }
 
